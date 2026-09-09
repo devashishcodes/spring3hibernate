@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'   // Name configured in Manage Jenkins -> Tools
-        jdk 'JDK11'      // Name configured in Manage Jenkins -> Tools
+        maven 'Maven-3'  // Name configured in Manage Jenkins -> Tools
+        jdk 'JDK-11'     // Name configured in Manage Jenkins -> Tools
     }
 
     parameters {
